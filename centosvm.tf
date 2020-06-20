@@ -15,7 +15,7 @@ resource "random_integer" "ri" {
 
 locals {
   # Ids for multiple vm.
-  base_computer_name = "centos7${random_integer.ri.result}"
+  base_computer_name = "cent7${random_integer.ri.result}"
 }
 
 # Create a resource group if it doesn’t exist
