@@ -161,7 +161,7 @@ resource "azurerm_virtual_machine" "centos7" {
     storage_image_reference {
         publisher = "OpenLogic"
         offer     = "CentOS"
-        sku       = "7.0"
+        sku       = "7.5"
         version   = "latest"
         # id = "${data.azurerm_image.managed_image.id}"
     }
